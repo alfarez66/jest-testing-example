@@ -3,7 +3,7 @@ const chunkArray = (arr, len) => {
   const chunkedArr = [];
 
   // Loop through arr
-  arr.forEach(val => {
+  arr.forEach(val =>{
     // Get last element
     const last = chunkedArr[chunkedArr.length - 1];
 
